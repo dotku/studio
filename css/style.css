@@ -1,0 +1,207 @@
+@charset "utf-8";
+/* CSS Document */
+/* reset */
+body,
+ul,
+ol,
+img,
+p,
+h1,
+h2,
+h3,
+h4,
+dl,
+dd,
+form,
+input,
+textarea,
+select,
+fieldset {
+	padding: 0; 
+	margin: 0; 
+	font-size: 12px;
+	font-family: Arial, Microsoft YaHei;
+}
+
+li { 
+	list-style: none;
+}
+
+img,
+input { 
+	border: 0 none;
+	outline: 0 none; 
+}
+
+a {
+	text-decoration: none; 
+}
+
+strong {
+	font-weight: normal;
+}
+table, li{
+	margin-top: 10px;
+	border-collapse: collapse;
+	font-size: 14px;
+}
+table td{
+	border: 1px solid #eee;
+	padding: 10px;
+	vertical-align: top;
+}
+/* end reset */
+
+/* public */
+
+.clear {
+	zoom: 1; 
+}
+.clear:after { 
+	content: ''; 
+	display: block; 
+	clear: both; 
+}
+
+/* end public */
+
+/* layout */
+
+#top {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	/*background-color: rgba(0,0,0,0.8);*/
+	background-color: #A15C42;
+}
+
+#banner {
+	height: 560px;
+	background: url(../images/banner.jpg) no-repeat center bottom;
+	background-size: cover;
+}
+
+/* end layout */
+
+/* top */
+
+#top .topwrap {
+	padding: 0 20px;
+}
+
+#top .logo {
+	float: left;
+	padding: 20px 0;
+}
+
+#top .logo a {
+	font-size: 30px;
+	color: #fff;
+}
+
+#top .menu {
+	float: right;
+	margin-top: 30px;
+}
+
+#top .menu a {
+	margin-left: 20px;
+	font-size: 14px;
+	color: #fff;
+}
+
+/* end top */
+
+/* main */
+
+#main .contentgrey {
+	padding: 48px 0 80px 0;
+	background: #f7f7f7;
+	border-top: 1px solid #e1e1e1;
+	border-bottom: 1px solid #e1e1e1;
+}
+
+#main .contentwhite {
+	padding: 48px 0 80px 0;
+	background: #ffffff;
+}
+
+#main h1 {
+	padding-bottom: 48px;
+	font-size: 46px;
+	font-weight: 700;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+#main img {
+	display: inline-block;
+	float: left;
+	width: 50%;
+	padding-right: 30px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; /* Firefox */
+	-webkit-box-sizing: border-box; /* Safari */
+
+}
+
+#main .side {
+	display: inline-block;
+	float: left;
+	width: 50%;
+	padding: 30px 16px 0 30px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; /* Firefox */
+	-webkit-box-sizing: border-box; /* Safari */
+}
+
+#main .wrap {
+	width: 455px;
+}
+
+#main .side h2:first-child {
+	padding-top: 0;
+}
+
+#main .side h2 {
+	padding: 30px 0 10px 0;
+	font-size: 22px;
+	color: #333;
+	font-weight: 400;
+}
+
+#main .side p {
+	font-size: 14px;
+	color: #333;
+}
+#main .contactInfo {
+	display: block;
+	margin-top: 20px;
+}
+#main .contactInfo dd,
+#main .contactInfo dt {
+	min-width: 80px;
+	display: inline-block;
+	font-size: 20px;
+}
+/* end main */
+
+/* footer */
+
+#footer {
+	padding: 40px 0;
+	background: #000;
+	text-align: center;
+}
+
+#footer a:first-child {
+	padding: 0;
+}
+
+#footer a {
+	padding-left: 20px;
+	font-size: 14px;
+	color: #fff;
+}
+
+/* end footer */
